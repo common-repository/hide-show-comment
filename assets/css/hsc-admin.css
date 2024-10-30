@@ -1,0 +1,76 @@
+/**
+ * Ace editor
+ */
+#ace-editor { 
+    width: 100%;
+    height:350px;
+    margin-left: auto;
+	padding-right: 10px;
+	font-size: 16px;
+}
+
+#ace_editor_value {
+	display: none;
+}
+
+.hsc-buttonskin-none .hsc-link, .hsc-count-only {
+	text-decoration: none;
+}
+
+.hsc-buttonskin-none .hsc-link:hover, .hsc-count-only:hover {
+	text-decoration: underline;
+}
+
+label {
+	vertical-align: top
+}
+
+.form-table input {
+	width: 275px;
+}
+
+#setting-error-settings_updated {
+	display: none;
+}
+
+.form-table td {
+	vertical-align: middle;
+}
+
+.form-table th {
+	width: 200px
+}
+
+.form-table input,.form-table select,.form-table textarea {
+	width: 350px;
+	margin-right: 10px;
+}
+
+.form-table textarea {
+	height: 100px;
+}
+
+label.error {
+    margin-left: 5px;
+    color: red;
+}
+
+.form-table tr th {
+    text-align: left;
+    font-weight: normal;
+}
+
+.meta-subtitle {
+	margin: 0px -22px !important;
+	border-top: 1px solid #EEE;
+	border-bottom: 1px solid #EEE;
+	background-color: #F6F6F6;
+	padding: 10px;
+	font-size: 14px;
+}
+
+@media (max-width: 767px) {
+	    .meta-subtitle {
+	      margin-left: -12px !important;
+	    }
+}
